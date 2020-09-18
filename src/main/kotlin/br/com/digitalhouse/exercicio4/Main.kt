@@ -13,8 +13,4 @@ fun main() {
     val funcionario5 = Funcionario("Sebastião", 4)
     println(listaFuncionarios.contains(funcionario5))
 
-    for (funcionario in listaFuncionarios){
-        println(funcionario5.numeroDeRegistro.equals(funcionario.numeroDeRegistro))
-    }
-
 }

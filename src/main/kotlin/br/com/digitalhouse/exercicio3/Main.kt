@@ -11,8 +11,4 @@ fun main() {
     val aluno5 = Aluno("Sebastião", 4)
     println(listaAluno.contains(aluno5))
 
-    for (aluno in listaAluno){
-        println(aluno5.numeroDeAluno.equals(aluno.numeroDeAluno))
-    }
-
 }
